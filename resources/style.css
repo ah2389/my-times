@@ -23,7 +23,7 @@ justify-content: space-between;
 }
 
 nav{
-  padding-right: 20px; 
+  padding-right: 20px;
 }
 
 nav span{
@@ -35,3 +35,21 @@ nav span{
 a{
   color: black;
 }
+
+.container{
+  display: flex;
+}
+
+.column-large{
+  width: 630px;
+}
+
+.column-medium{
+  width: 300px;
+}
+
+.column-small{
+  width: 240px;
+}
+
+.column-large .image-one .orca .image-two .burger .image-three
