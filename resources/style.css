@@ -6,12 +6,13 @@ border-bottom: 1px solid black;
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin-bottom: 25px;
 }
 
 .header-logo{
   display: flex;
   align-items: center;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   padding-left: 20px;
 
 }
@@ -42,16 +43,21 @@ a{
 
 .column-large{
   width: 630px;
+  margin-right: 20px;
+
 }
 
 .column-medium{
   width: 300px;
+  margin-right: 20px;
+
 }
 
 .column-small{
   width: 240px;
+
 }
 
-.column-large .image-one .orca.image-two .burger.image-three .header-logo .column-medium .column-small .bites .image-five .cat-content .fbi .image-four{
+.column-large, .image-one, .orca, .image-two, .burger, .image-three, .header-logo, .column-medium, .column-small, .bites, .image-five, .cat-content, .fbi, .image-four{
   border: 1px solid black;
 }
