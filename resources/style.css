@@ -7,6 +7,12 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 margin-bottom: 25px;
+
+}
+
+.container{
+  display: flex;
+  width: 1200px;
 }
 
 .header-logo{
@@ -60,4 +66,8 @@ a{
 
 .column-large, .image-one, .orca, .image-two, .burger, .image-three, .header-logo, .column-medium, .column-small, .bites, .image-five, .cat-content, .fbi, .image-four{
   border: 1px solid black;
+}
+
+.image-one{
+  background-image: url('./resources/img-main.png');
 }
