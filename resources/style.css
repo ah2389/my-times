@@ -52,4 +52,6 @@ a{
   width: 240px;
 }
 
-.column-large .image-one .orca .image-two .burger .image-three
+.column-large .image-one .orca.image-two .burger.image-three .header-logo .column-medium .column-small .bites .image-five .cat-content .fbi .image-four{
+  border: 1px solid black;
+}
