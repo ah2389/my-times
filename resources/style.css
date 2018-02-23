@@ -69,5 +69,19 @@ a{
 }
 
 .image-one{
-  background-image: url('./resources/img-main.png');
+  background-image: url('./img-main.png');
+  display: flex;
+}
+
+.image-two{
+  background-image: url('./img-fall.png');
+
+}
+
+.image-three{
+background-image: url('./img-camera.png');
+}
+
+.image-four{
+background-image: url('./img-cat.png');
 }
