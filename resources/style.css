@@ -71,17 +71,46 @@ a{
 .image-one{
   background-image: url('./img-main.png');
   display: flex;
+
+}
+
+.image-one h3{
+  font-size: 40px;
 }
 
 .image-two{
   background-image: url('./img-fall.png');
+  display: flex;
 
 }
 
 .image-three{
 background-image: url('./img-camera.png');
+display: flex;
 }
 
 .image-four{
 background-image: url('./img-cat.png');
+display: flex;
+}
+
+.image-one, .image-two, .image-three, .image-four{
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+}
+
+p{
+  font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+.orca{
+  flex-direction: column; 
+}
+
+.burger{
+  align-content: flex-end;
 }
